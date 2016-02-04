@@ -1,4 +1,4 @@
-------- Yet another MGC compiler -------
+# Yet another MGC compiler
 Compiler project for Formal Languages &amp; Translation Techniques 2015 classes.
 
 Author: Adam Bobowski
@@ -12,13 +12,18 @@ Requirenments:
 Instalation:
 Get Python-Lex-Yacc (PLY) from pip
 
+```
 $ sudo apt-get install python-pip
 $ sudo pip install ply
-
+```
 
 Compilation with Yamc:
+```
 $ python yamc.py [file] [--out OUT]
+```
 if OUT ommited returns a.mr
 
 If chmod +x can be run as script:
+```
 $ yamc.py [file] [--out OUT]
+```
