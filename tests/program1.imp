@@ -1,0 +1,24 @@
+[ sito Eratostenesa 
+  1229 liczb
+]
+DECLARE
+    n j sito(10000) l
+IN
+    n := 10000-1;
+    l := 0;
+    FOR i DOWN FROM n TO 2 DO
+        sito(i) := 1;
+    ENDFOR
+    FOR i FROM 2 TO n DO
+        IF sito(i) != 0 THEN
+            j := i + i;
+            WHILE j <= n DO
+                sito(j) := 0;
+                j := j + i;
+            ENDWHILE
+            PUT i;
+            l:=l+1;
+        ENDIF
+    ENDFOR
+    PUT l;
+END

@@ -1,0 +1,17 @@
+[ Zapis binarny  
+  1345601
+  101001000100001000001
+]
+DECLARE
+    a b
+IN
+    GET a;
+    WHILE a > 0 DO
+        b := a / 2;
+        b := 2 * b;
+        IF a > b THEN PUT 1;
+        ELSE PUT 0;
+        ENDIF
+        a := a / 2;
+    ENDWHILE
+END
