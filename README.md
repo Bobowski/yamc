@@ -1,6 +1,9 @@
 # Yet another MGC compiler
 Compiler project for Formal Languages &amp; Translation Techniques 2015 classes.
 
+Formal Languages &amp; Translation Techniques classes by Maciej Gębala
+http://ki.pwr.edu.pl/gebala/dyd/jftt2015.html
+
 Author: Adam Bobowski
 
 
